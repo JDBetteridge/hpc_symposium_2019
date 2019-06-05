@@ -12,6 +12,7 @@ script:
   - nbfancy render
   - nbfancy html
   - cp nbfancy/slides.ipynb html/
+  - sed -i 's/\.\.\/images/\.\/images/g' html/slides.ipynb
   - jupyter nbconvert html/slides.ipynb --to slides
   - mv html/slides.slides.html html/index.html
 
