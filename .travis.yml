@@ -11,8 +11,9 @@ script:
   - nbfancy init --include none
   - nbfancy render
   - nbfancy html
-  - jupyter nbconvert nbfancy/slides.ipynb --to slides
-  - mv nbfancy/slides.slides.html html/index.html
+  - cp nbfancy/slides.ipynb html/
+  - jupyter nbconvert html/slides.ipynb --to slides
+  - mv html/slides.slides.html html/index.html
 
 deploy:
   provider: pages
