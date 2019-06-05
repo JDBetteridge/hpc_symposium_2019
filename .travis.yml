@@ -7,8 +7,6 @@ install:
   - pip install nbfancy
 
 script:
-  - nbfancy configure -y all_magic
-  - nbfancy init --include none
   - nbfancy render
   - nbfancy html
   - cp nbfancy/slides.ipynb html/
