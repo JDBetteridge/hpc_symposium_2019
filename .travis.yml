@@ -12,7 +12,7 @@ script:
   - nbfancy render
   - nbfancy html
   - jupyter nbconvert nbfancy/slides.ipynb --to slides
-  - mv slides.slides.html html/index.html
+  - mv nbfancy/slides.slides.html html/index.html
 
 deploy:
   provider: pages
