@@ -16,7 +16,7 @@ script:
 
 deploy:
   provider: pages
-  repo: JDBetteridge/nbfancy
+  repo: JDBetteridge/hpc_symposium_2019
   target-branch: gh-pages
   local-dir: html
   github_token: $GITHUB_TOKEN
