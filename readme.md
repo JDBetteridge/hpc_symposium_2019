@@ -1,4 +1,4 @@
-## Efficient solvers for semi-implicit hybridised DG methods in fluid dynamics
+## [Efficient solvers for semi-implicit hybridised DG methods in fluid dynamics](https://jdbetteridge.github.io/hpc_symposium_2019)
 #### Presented by: Jack Betteridge, Dept of Mathematical Sciences
 #### Co-authors: Thomas Gibson, Ivan Graham, Lawrence Mitchell, Eike Müller
 
